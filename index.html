@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='UTF-8'>
+		<link rel="stylesheet" type="text/css" href="style.css"/><link/>
+		<script src="movies.js"></script>
+	</head>
+	<body>
+	<div id='option'>
+		<div class='choixCateg'>
+			<label class='LabelSelect'>Categorie : </label>
+				<select class='listFilm select-css'>
+					<option value='tous' selected>Tous</option>
+				</select>
+		</div>
+		<div class='choixnbElements'>
+			<label class='LabelSelect'>films par page : </label>
+				<select class='NbFilmPage select-css'>
+					<option value='4' >4</option>
+					<option value='8' >8</option>
+					<option value='12' >12</option>
+				</select>
+		</div>
+		<div id='buttonPage'>
+			<button id='precedent'><</button>
+			<span class='numPage'> 1 </span>
+			<button id='suivant'>></button>
+		</div>
+	</div>
+	<div id='afficheFilm'></div>
+	</body>
+</html>
